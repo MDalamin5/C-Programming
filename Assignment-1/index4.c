@@ -2,7 +2,7 @@
 int main()
 {
     long long int num;
-    printf("Enter your number: ");
+    
     scanf("%lld",&num);
     int rem,sum=0;
     while(num !=0)

@@ -2,7 +2,7 @@
 int main()
 {
     long long int num;
-    printf("Enter your number: ");
+    
     scanf("%lld",&num);
     int count=0;
     while(num !=0)
