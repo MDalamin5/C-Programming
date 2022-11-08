@@ -8,26 +8,23 @@ int main()
     fgets(input,sizeof(input),stdin);
     //int count[100],c=0;
     int len= strlen(input);
-    for(int i=0;i<(len-1)/2;i++)
+    for(int i=0;i<(len-1);i++)
     {
-        for(int j=0;j<len-1;j++)
+        for(int j=0;j<len-2;j++)
         {
-            if(input[i]<input[j])
+            if(input[j]>input[j+1])
             {
-                temp=input[i];
-                input[i]=input[len-1-j];
-                input[len-1-j]=temp;
-
-
+                temp=input[j];
+                input[j]=input[j+1];
+                input[j+1]=temp;
             }
         }
-
-        for(int i=0;i<len-1;i++)
+   
+    }
+    for(int i=0;i<len-1;i++)
         {
             printf("%c",input[i]);
         }
-        
-    }
     
 
 }
