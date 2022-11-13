@@ -8,5 +8,14 @@ int main()
               a[i] = ch+8-i;
         }
 a[8] = '\0';
-puts(a);
+
+    for(int i=0;a[i]!='\0';i++)
+    {
+        printf("%c\n",a[i]);
+    }
+
+        
+        
+
+
 }

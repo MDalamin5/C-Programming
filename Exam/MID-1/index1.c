@@ -6,8 +6,9 @@ int main()
    int index = 0;
    int a[10] = {12, 7, 3, 71, 2, 43, 38, 23, 45, 22};
    int b[n];
-   for (int i=0; i<n; i++) {
-        if(a[i]>x){ b[index]=a[i];index++;}
-}
-
+   for (int i=0; i<n; i++)
+    {
+        b[i]=a[i]+5;
+    }
+    
 }
