@@ -46,7 +46,7 @@ int main()
         }
         
     }
-        printf("\n<==Your Result is==>\n")
+        printf("\n<==Your Result is==>\n");
     for(int i=0;i<row2;i++)
     {
         for(int j=0;j<col1;j++)
