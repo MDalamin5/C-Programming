@@ -8,6 +8,7 @@ int main()
     if(num1==num2)
     {
         printf("Both are equal");
+      printf("hello");
     }
    else
    {
